@@ -1,0 +1,20 @@
+body{
+    background:radial-gradient(circle , rgb(251, 251, 251) , rgb(211, 28, 59));
+}
+
+btn-warning:hover{
+    background-color: rgb(145, 93, 74);
+}
+
+canvas{
+    animation-name: hlo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes hlo{
+
+    from{box-shadow: 1px 1px 38px green;}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
